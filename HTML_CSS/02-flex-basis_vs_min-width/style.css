@@ -7,6 +7,7 @@
     margin: 1vh;
 
     display: flex;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -44,24 +45,4 @@ p {
 
 .grow-three {
     flex-grow: 3;
-}
-
-.container-3 {
-    width: 350px;
-    border: solid rgba(0, 0, 0, 0.514) 2px;
-    margin: 1vh;
-    display:flex; 
-    justify-content: center;
-}
-
-.shrink-one {
-    flex-shrink: 1;
-}
-
-.shrink-two {
-    flex-shrink: 2;
-}
-
-.shrink-three {
-    flex-shrink: 3;
 }
