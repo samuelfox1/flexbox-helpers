@@ -13,15 +13,28 @@
     <h1>drag broswer window size to see results</h1>
     <hr>
 
-    <h2>flex-shrink</h2>
+    <h2>flex-shrink with min-width: 200px; items will not shrink smaller then 200px</h2>
     <section class="container-0 radius">
-        <div class="container-1 radius one">
+        <div class="container-1 radius min-width one">
             <p>one</p>
         </div>
-        <div class="container-1 radius two">
+        <div class="container-1 radius min-width two">
             <p>two</p>
         </div>
-        <div class="container-1 radius three">
+        <div class="container-1 radius min-width three">
+            <p>three</p>
+        </div>
+    </section>
+
+    <h2>flex-shrink with flex-basis: 200; will will shrink less than 200px to fit in container </h2>
+    <section class="container-0 radius">
+        <div class="container-1 radius flex-basis one">
+            <p>one</p>
+        </div>
+        <div class="container-1 radius flex-basis two">
+            <p>two</p>
+        </div>
+        <div class="container-1 radius flex-basis three">
             <p>three</p>
         </div>
     </section>

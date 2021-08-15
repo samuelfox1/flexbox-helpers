@@ -10,7 +10,6 @@
 }
 
 .container-1 {
-    width: 350px;
     border: solid rgba(0, 0, 0, 0.514) 2px;
     margin: 1vh;
     display:flex; 
@@ -25,6 +24,13 @@
 }
 .three {
     flex-shrink: 3;
+}
+
+.min-width {
+    min-width: 200px;
+}
+.flex-basis {
+    flex-basis: 200px;
 }
 
 p {
