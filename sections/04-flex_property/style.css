@@ -1,0 +1,56 @@
+ body {
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.container-0 {
+    border: solid rgba(251, 255, 0, 0.397) 2px;
+    margin: 1vh;
+    display: flex;
+    align-items: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.container-1 {
+    border: solid rgba(0, 0, 0, 0.514) 2px;
+    margin: 1vh;
+    display:flex; 
+    justify-content: center;
+}
+
+.one-a {
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 300px; */
+    flex: 1 0 300px;
+}
+.two-a {
+    flex: 2 0 300px;
+}
+.three-a {
+    flex: 3 0 300px;
+}
+
+.one-b {
+    /* flex-grow: 0;
+    flex-shrink: 1;
+    min-width: 300px; */
+    flex: 0 1 300px;
+}
+.two-b {
+    flex: 0 2 300px;
+}
+.three-b {
+    flex: 0 3 300px;
+}
+
+p {
+    padding: 1vh;
+    border: solid rgba(255, 109, 109, 0.514) 2px;
+}
+
+.radius, p {
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
