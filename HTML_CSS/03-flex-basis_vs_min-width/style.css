@@ -10,10 +10,21 @@
 }
 
 .container-1 {
+    width: 350px;
     border: solid rgba(0, 0, 0, 0.514) 2px;
     margin: 1vh;
     display:flex; 
     justify-content: center;
+}
+
+.one {
+    flex-shrink: 1;
+}
+.two {
+    flex-shrink: 2;
+}
+.three {
+    flex-shrink: 3;
 }
 
 p {
@@ -24,12 +35,4 @@ p {
 .radius, p {
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-}
-
-.min-width {
-    min-width: 300px;
-}
-
-.flex-basis {
-    flex-basis: 300px;
 }
