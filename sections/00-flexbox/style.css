@@ -3,10 +3,14 @@ body {
     background-color: rgba(0, 0, 0, 0.26);
     border: solid rgba(255, 0, 0, 0.397) 2px;
     margin: 1vh;
+    text-align: center;
 
+}
+main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
 }
 
 .radius, p {
