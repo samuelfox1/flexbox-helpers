@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>flexbox</title>
+</head>
+
+<body>
+    <h1>drag broswer window size to see results</h1>
+    <hr>
+    <h2>min-width: 300px; can create a side-scroll effect</h2>
+    <section class="container-0 radius">
+        <div class="container-1 radius min-width">
+            <p>one</p>
+        </div>
+        <div class="container-1 radius min-width">
+            <p>two</p>
+        </div>
+        <div class="container-1 radius min-width">
+            <p>three</p>
+        </div>
+    </section>
+    <h2>flex-basis: 300px; fixes this</h2>
+    <section class="container-0 radius">
+        <div class="container-1 radius flex-basis">
+            <p>one</p>
+        </div>
+        <div class="container-1 radius flex-basis">
+            <p>two</p>
+        </div>
+        <div class="container-1 radius flex-basis">
+            <p>three</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
