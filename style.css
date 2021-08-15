@@ -2,34 +2,53 @@
     background-color: rgba(0, 0, 0, 0.26);
     text-align: center;
 }
+main {
+    max-width: 80vw;
+    margin:0 auto;
+    padding:1vh;
+    border: solid rgba(255, 109, 109, 0.514) 2px;
+}
 
 .container-0 {
-    min-height: 250px;
+    min-height: 350px;
     margin: 1vh;
+    padding:1vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     border: solid rgba(251, 255, 0, 0.397) 2px;
 }
 
-.container-1 {
+a:-webkit-any-link {
     height: 5vh;
     margin: 1vh;
     padding: 1vh;
-    display:flex; 
-    justify-content: center;
+    display: flex;
     align-items: center;
-    flex: 1 0 300px;
+    justify-content: center;
+    flex: 1 0 500px;
     border: solid rgba(0, 0, 0, 0.514) 2px;
     box-shadow: 2px 2px 2px rgba(255, 109, 109, 0.514);
+    
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-
-.container-1:hover {
+a:-webkit-any-link:hover {
     height: 6vh;
     background-color:rgba(0, 0, 0, 0.514);
     box-shadow: 5px 5px 5px rgba(255, 109, 109, 0.514);
 }
+
+.no-border {
+    border:none;
+}
+
+.no-min-height {
+min-height: 100px;
+}
+
 span {
     padding:1vh;
     border: solid rgba(255, 109, 109, 0.514) 2px;
@@ -39,10 +58,4 @@ span {
 .radius, span {
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-}
-
-a:-webkit-any-link {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
 }
