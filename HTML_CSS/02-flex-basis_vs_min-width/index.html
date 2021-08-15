@@ -12,16 +12,28 @@
 <body>
     <h1>drag broswer window size to see results</h1>
     <hr>
-    <h2>flex-grow with flex-wrap</h2>
-    <section class="container-0 radius wrap">
-        <div class="container-1 radius grow-one">
-            <p>grow-one</p>
+    <h2>min-width: 300px; can create a side-scroll effect</h2>
+    <section class="container-0 radius">
+        <div class="container-1 radius min-width">
+            <p>one</p>
         </div>
-        <div class="container-1 radius grow-two">
-            <p>grow-two</p>
+        <div class="container-1 radius min-width">
+            <p>two</p>
         </div>
-        <div class="container-1 radius grow-three">
-            <p>grow-three</p>
+        <div class="container-1 radius min-width">
+            <p>three</p>
+        </div>
+    </section>
+    <h2>flex-basis: 300px; fixes this</h2>
+    <section class="container-0 radius">
+        <div class="container-1 radius flex-basis">
+            <p>one</p>
+        </div>
+        <div class="container-1 radius flex-basis">
+            <p>two</p>
+        </div>
+        <div class="container-1 radius flex-basis">
+            <p>three</p>
         </div>
     </section>
 
